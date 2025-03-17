@@ -20,7 +20,7 @@
  
 # 4. 알고리즘
 
-<img src="Algorithm.png"/><br>
+<img src="Algorithm.png" width="100" height="100"/><br>
 
 1.데이터 수집: 국가교통정보센터 API를 통해 실시간 CCTV 영상을 수집하고, 경도와 위도를 지정하여 특정 CCTV 데이터를 가져옴.
 
@@ -32,7 +32,7 @@
 
 5.데이터 시각화: 저장된 데이터를 matplotlib를 사용하여 시각화, 요일별 시간대에 따른 차량 수를 차종별 색상으로 막대 그래프로 나타내는 대시보드 제공.
 
-<img src="map.png" width="1000" height="539"/><br>
+<img src="map.png" width="800" height="431"/><br>
  
 # 5. 본인 소개
 
