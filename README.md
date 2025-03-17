@@ -20,7 +20,7 @@
  
 # 4. 알고리즘
 
-<img src="Algorithm.png" width="100" height="100"/><br>
+<img src="Algorithm.png" width="800" height="800"/><br>
 
 1.데이터 수집: 국가교통정보센터 API를 통해 실시간 CCTV 영상을 수집하고, 경도와 위도를 지정하여 특정 CCTV 데이터를 가져옴.
 
@@ -37,8 +37,8 @@
 # 5. 본인 소개
 
 
-|이름 |고길동|<img src="https://avatars.githubusercontent.com/u/195834041?v=4">|<br>
-|연락처 | gdko(@)dongyang.ac.kr|<br>
+|이름 |윤지윤|<img src="https://avatars.githubusercontent.com/u/195834041?v=4">|<br>
+|연락처 | pinocchio93(@)naver.com|<br>
 |skill set| Frontend - HTML, CSS, Javascript|<br>
 | | Backend - Java, Spring, Oracle|<br>
 |자격증| 20xx년 정보처리기사 |<br>
@@ -48,7 +48,6 @@
 |수상| 20xx년 프로젝트 대상 수상 (과학기술정보통신부 지원)  |<br>
 | | 20xx년 한국전자전 동양미래엑스포 대상 수상|<br>
 | | 20xx년 대학생 논문 경진대회 은상 수상|<br>
-|특기사항|  TOEIC 990 |<br>
 
 
 
