@@ -1,6 +1,5 @@
-# 프로젝트 이름
+# 프로젝트 <AI를 이용한 실시간 인천공항 IN/OUT 차량 수 집계>
 
-AI를 이용한 실시간 인천공항 IN/OUT 차량 수 집계
 [프로젝트 홈페이지 - https://dongmisw.github.io/finalproject_template/](https://dongmisw.github.io/finalproject_template/)
 
 # 1. 프로젝트 개요
@@ -17,7 +16,7 @@ AI를 이용한 실시간 인천공항 IN/OUT 차량 수 집계
 
    <img src="Counting.png"/><br>
    
-   <img src="Figure.JPG"/><br>
+   <img src="Figure.png"/><br>
  
 # 4. 과정
 <img src="Algorithm.png"/><br>
@@ -26,18 +25,18 @@ AI를 이용한 실시간 인천공항 IN/OUT 차량 수 집계
 # 5. 본인 소개
 
 
-|이름 |고길동|![gdKO](/gdko.jpg)|
-|연락처 | gdko(@)dongyang.ac.kr|
-|skill set| Frontend - HTML, CSS, Javascript|
-| | Backend - Java, Spring, Oracle|
-|자격증| 20xx년 정보처리기사 |
-|| 20xx년 빅데이터분석기사 |
-|| 20xx년 SQLD |
-|| 20xx년 ADsP |
-|수상| 20xx년 프로젝트 대상 수상 (과학기술정보통신부 지원)  |
-| | 20xx년 한국전자전 동양미래엑스포 대상 수상|
-| | 20xx년 대학생 논문 경진대회 은상 수상|
-|특기사항|  TOEIC 990 |
+|이름 |고길동|![gdKO](/gdko.jpg)|<br>
+|연락처 | gdko(@)dongyang.ac.kr|<br>
+|skill set| Frontend - HTML, CSS, Javascript|<br>
+| | Backend - Java, Spring, Oracle|<br>
+|자격증| 20xx년 정보처리기사 |<br>
+|| 20xx년 빅데이터분석기사 |<br>
+|| 20xx년 SQLD |<br>
+|| 20xx년 ADsP |<br>
+|수상| 20xx년 프로젝트 대상 수상 (과학기술정보통신부 지원)  |<br>
+| | 20xx년 한국전자전 동양미래엑스포 대상 수상|<br>
+| | 20xx년 대학생 논문 경진대회 은상 수상|<br>
+|특기사항|  TOEIC 990 |<br>
 
 
 
