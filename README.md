@@ -20,7 +20,7 @@
  
 # 4. 알고리즘
 
-<img src="Algorithm.png" width="800" height="800"/><br>
+<img src="Algorithm.png" width="626" height="530"/><br>
 
 1.데이터 수집: 국가교통정보센터 API를 통해 실시간 CCTV 영상을 수집하고, 경도와 위도를 지정하여 특정 CCTV 데이터를 가져옴.
 
@@ -32,22 +32,16 @@
 
 5.데이터 시각화: 저장된 데이터를 matplotlib를 사용하여 시각화, 요일별 시간대에 따른 차량 수를 차종별 색상으로 막대 그래프로 나타내는 대시보드 제공.
 
-<img src="map.png" width="800" height="431"/><br>
  
 # 5. 본인 소개
 
 
-|이름 |윤지윤|<img src="https://avatars.githubusercontent.com/u/195834041?v=4">|<br>
+|이름 |윤지윤|<img src="https://avatars.githubusercontent.com/u/195834041?v=4" width="70" height="70">|<br>
 |연락처 | pinocchio93(@)naver.com|<br>
 |skill set| Frontend - HTML, CSS, Javascript|<br>
-| | Backend - Java, Spring, Oracle|<br>
+| | Backend - Java, JSP, Oracle|<br>
+|교육과정| 한국폴리텍대학교 분당융합기술교육원 하이테크과정 AI응용소프트웨어 |<br>
 |자격증| 20xx년 정보처리기사 |<br>
-|| 20xx년 빅데이터분석기사 |<br>
-|| 20xx년 SQLD |<br>
-|| 20xx년 ADsP |<br>
-|수상| 20xx년 프로젝트 대상 수상 (과학기술정보통신부 지원)  |<br>
-| | 20xx년 한국전자전 동양미래엑스포 대상 수상|<br>
-| | 20xx년 대학생 논문 경진대회 은상 수상|<br>
 
 
 
