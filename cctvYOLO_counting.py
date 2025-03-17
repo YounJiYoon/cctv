@@ -49,7 +49,7 @@ def data_appending(counter, car_IN, car_OUT, truck_IN, truck_OUT, bus_IN, bus_OU
 start_time = time.time()  # 프로그램 시작 시각
 interval = 5*60  # (초 단위)
 
-key = "96b582f6c4624bacb378399a93e7def4"    # 국가교통정보센터 API 인증키
+key = "YourOwnKey"    # 국가교통정보센터 API 인증키
 
 YeongjongBr_X = 126.5622    # 경도
 YeongjongBr_Y = 37.5366    # 위도
