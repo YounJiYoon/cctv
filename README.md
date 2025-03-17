@@ -25,7 +25,7 @@
 # 5. 본인 소개
 
 
-|이름 |고길동|![gdKO](/gdko.jpg)|<br>
+|이름 |고길동|[](https://avatars.githubusercontent.com/u/195834041?v=4)|<br>
 |연락처 | gdko(@)dongyang.ac.kr|<br>
 |skill set| Frontend - HTML, CSS, Javascript|<br>
 | | Backend - Java, Spring, Oracle|<br>
