@@ -45,11 +45,10 @@ def data_appending(counter, car_IN, car_OUT, truck_IN, truck_OUT, bus_IN, bus_OU
         bus_IN.append(0)
         bus_OUT.append(0)
 
-# 주기적 기록을 위한 변수
-start_time = time.time()  # 프로그램 시작 시각
-interval = 5*60  # (초 단위)
+start_time = time.time()  # set time
+interval = 5*60  # 초 단위
 
-key = "96b582f6c4624bacb378399a93e7def4"    # 국가교통정보센터 API 인증키
+key = "YourOwnKey"    # API key
 
 YeongjongBr_X = 126.5622    # 경도
 YeongjongBr_Y = 37.5366    # 위도
@@ -75,8 +74,8 @@ truck_OUT_2 = []
 index = []
 
 # 영종대교
-cctv_play1 = cctvURL(YeongjongBr_X, YeongjongBr_Y)    # 경도, 위도 범위에서 가져온 cctv 목록
-YeongjongBr_url = cctv_play1['cctvurl'][0]    # 목록 중 원하는 cctv 선택
+cctv_play1 = cctvURL(YeongjongBr_X, YeongjongBr_Y)    # list of cctv
+YeongjongBr_url = cctv_play1['cctvurl'][0]    # choose one from list of cctv
 capture1 = cv2.VideoCapture(YeongjongBr_url)
 assert capture1.isOpened(), "Error reading video file"
 w, h, fps = (int(capture1.get(x)) for x in (cv2.CAP_PROP_FRAME_WIDTH, cv2.CAP_PROP_FRAME_HEIGHT, cv2.CAP_PROP_FPS))
@@ -116,8 +115,8 @@ while capture1.isOpened() and capture2.isOpened():
     cv2.imshow("im0_1", im0_1)
     cv2.imshow("im0_2", im0_2)
 
-    # 현재 시간과 시작 시간의 차이를 구하여 일정 시간마다 데이터 입력
-    current_time = time.time()  # 현재 시간
+    # Update data file
+    current_time = time.time()  # set time
     if current_time - start_time >= interval:
         data_appending(counter1, car_IN_1, car_OUT_1, truck_IN_1, truck_OUT_1, bus_IN_1, bus_OUT_1)
         data_appending(counter2, car_IN_2, car_OUT_2, truck_IN_2, truck_OUT_2, bus_IN_2, bus_OUT_2)
@@ -137,10 +136,10 @@ while capture1.isOpened() and capture2.isOpened():
                             'bus_IN': bus_IN_2,
                             'bus_OUT': bus_OUT_2}, index=index)
         
-        #df1.to_csv('YeongjongBr20250302-6.csv')
-        #df2.to_csv('IncheonBr20250302-6.csv')
+        df1.to_csv('YeongjongBr.csv')
+        df2.to_csv('IncheonBr.csv')
  
-        start_time = current_time  # 시작 시간 업데이트
+        start_time = current_time  # reset time
 
     # Press 'q' to exit
     if cv2.waitKey(1) & 0xFF == ord('q'):
