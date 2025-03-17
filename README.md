@@ -1,6 +1,6 @@
-# 프로젝트 <AI를 이용한 실시간 인천공항 IN/OUT 차량 수 집계>
+# <AI를 이용한 실시간 인천공항 IN/OUT 차량 수 집계>
 
-[프로젝트 홈페이지 - https://dongmisw.github.io/finalproject_template/](https://dongmisw.github.io/finalproject_template/)
+[프로젝트 홈페이지 - https://YounJiYoon.github.io/cctv/](https://YounJiYoon.github.io/cctv/)
 
 # 1. 프로젝트 개요
 
